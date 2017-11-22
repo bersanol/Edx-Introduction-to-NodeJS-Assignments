@@ -49,7 +49,7 @@ const convertCSVToJSON = (file) => {
 
     }).on('close', function () {
         //write the result to file
-        fs.writeFileSync(path.join(__dirname, 'customer-data.json'), JSON.stringify(arr,null,4))  
+        fs.writeFileSync(path.join(__dirname, 'customer-data.json'), JSON.stringify(arr,null,2))  
     });
 }
 
