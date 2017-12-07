@@ -1,0 +1,20 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "errorhandler": "1.5.0",
+    "merge-json": "0.1.0-b.3",
+    "mongodb": "^2.2.33",
+    "morgan": "1.9.0",
+    "node-dev": "^3.1.3",
+    "uuid": "^3.1.0"
+  }
+}
